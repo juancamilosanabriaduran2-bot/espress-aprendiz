@@ -17,3 +17,10 @@ terminal?
 # P3
 - ¿Qué responde el servidor si pides /actividades/ (con slash al final)? ¿Y /ACTIVIDADES?
 - ERROR 404, porque el código no contiene esas entradas, solo /actividades
+
+# REFLEXIÓN
+- Escribe tres cosas que te parecieron tediosas o frágiles al hacer el servidor a mano. Las vas a
+comparar en el siguiente momento.
+-Iniciar el npm
+-Iniciar el git (todo)
+-Conectar con la cuenta de github
