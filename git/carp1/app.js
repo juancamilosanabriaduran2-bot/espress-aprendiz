@@ -1,8 +1,8 @@
 const servidor = http.createServer((req, res) => {
 console.log('Llegó una petición:', req.method, req.url);
-if (req.method === 'GET' && req.url === '/') {
+if (req.method == 'GET' && req.url == '/') {
 res.end('Hola desde el servidor');
-} else if (req.method === 'GET' && req.url === '/actividades') {
+} else if (req.method == 'GET' && req.url == '/actividades') {
 // Para mandar JSON hay que decirlo en un header y convertir a texto a mano
 res.setHeader('Content-Type', 'application/json');
 res.end(JSON.stringify([{ id: 1, nombre: 'Rafting' }]));

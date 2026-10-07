@@ -13,3 +13,7 @@
 - ¿Cuántas líneas "Llegó una petición" van a aparecer en la
 terminal?
 -una por recarga
+
+# P3
+- ¿Qué responde el servidor si pides /actividades/ (con slash al final)? ¿Y /ACTIVIDADES?
+- ERROR 404, porque el código no contiene esas entradas, solo /actividades
