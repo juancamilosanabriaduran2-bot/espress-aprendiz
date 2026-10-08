@@ -50,3 +50,9 @@ terminal?
 - ¿Qué código de estado y qué body vas a
 recibir?
 - 'Rafting en el río Fonce', tipo: 'agua', precio: 60000
+
+## P7
+- En la versión corregida, borra la palabra return que está antes de res.status(404) y pide
+/actividades/99. ¿Qué recibe el cliente? ¿Qué aparece en la terminal? Después vuelve a poner el
+return.
+- recibe igual un error la terminal imprime normal lo del next
