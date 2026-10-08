@@ -1,3 +1,5 @@
+## M1
+
 # P0
 - el navegador
 - el commputador que recibe la solicictud
@@ -24,3 +26,5 @@ comparar en el siguiente momento.
 -Iniciar el npm
 -Iniciar el git (todo)
 -Conectar con la cuenta de github
+
+## M2
