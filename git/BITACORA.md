@@ -36,3 +36,10 @@ comparar en el siguiente momento.
 ## REFLEXIÓN
 - Vuelve a tus tres cosas tediosas del Momento 1. ¿Cuáles resolvió Express? ¿Alguna sigue igual?
 - Ya todo es mejor, porque se hacerlo bien
+
+# M3
+
+## P5
+- Comenta la línea next(); y pide / en el navegador. ¿Qué ves en el navegador? ¿Qué ves en la
+terminal?
+- se ve que funciona, aparece el json
