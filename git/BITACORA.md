@@ -45,3 +45,8 @@ terminal?
 - se ve que funciona, aparece el json
 
 # M4
+
+## P6
+- ¿Qué código de estado y qué body vas a
+recibir?
+- 'Rafting en el río Fonce', tipo: 'agua', precio: 60000
