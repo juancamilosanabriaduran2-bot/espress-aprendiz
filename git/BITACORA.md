@@ -28,3 +28,11 @@ comparar en el siguiente momento.
 -Conectar con la cuenta de github
 
 # M2
+
+## P4
+- ¿Qué crees que responde Express si la pides?
+- algún error 400 porque no existe, por ende no la va a encontrar
+
+## REFLEXIÓN
+- Vuelve a tus tres cosas tediosas del Momento 1. ¿Cuáles resolvió Express? ¿Alguna sigue igual?
+- Ya todo es mejor, porque se hacerlo bien
