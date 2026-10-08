@@ -49,9 +49,10 @@ import express from "express"
 
 const app=   express()
 app.use((req, res, next) => {
-console.log(`${new Date().toLocaleTimeString()} ${req.method} ${req.url}`);
+console.log(`${new Date().toLocaleTimeString()} ${req.method} ${req.url}`)
 next();
 });
+//middleware, imprime la fecha y lo que pidió el usuario y la URL. el next permite que continue con la ejecución del código, si no se pone next() se queda en el middleware y no ejecuta lo demás.
 const actividades = [
 { id: 1, nombre: 'Rafting en el río Fonce', tipo: 'agua', precio: 60000 },
 { id: 2, nombre: 'Parapente en el cañón', tipo: 'aire', precio: 180000 },
