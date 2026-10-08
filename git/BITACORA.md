@@ -43,3 +43,5 @@ comparar en el siguiente momento.
 - Comenta la línea next(); y pide / en el navegador. ¿Qué ves en el navegador? ¿Qué ves en la
 terminal?
 - se ve que funciona, aparece el json
+
+# M4
