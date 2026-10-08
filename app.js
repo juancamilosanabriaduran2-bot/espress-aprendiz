@@ -81,12 +81,12 @@ const { tipo } = req.query;
 if (!tipo) {
 return res.json(actividades);
 }
-const filtradas = actividades.filter((a) => a.tipo == tipo);
+const filtradas = actividades.filter((a) => a.tipo == tipo.toLowerCase());
 res.json(filtradas);
 });
 
 app.get("/actividades", (req, res) => {
-  res.json({actividades});
+  res.json(actividades);
 });
 
 app.get("/", (req, res) => {

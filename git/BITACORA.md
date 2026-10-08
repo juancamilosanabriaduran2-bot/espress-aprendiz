@@ -63,3 +63,5 @@ return.
 - la primera arroja los objetos con el tipo "agua", la segunda y la tercera arrojan un array vacío
 porque AGUA no es un resultado existente, sino solo "agua", y como tampoco existe fuego, por eso ocurre. Arroja 200 porque
 aun no tenemos el código que detecte lo que no existe para que arroje 400.
+
+# M5
