@@ -75,6 +75,16 @@ return res.status(404).json({ mensaje: `No existe la actividad con id ${req.para
 res.json(actividad);
 });
 
+app.get('/actividades', (req, res) => {
+console.log('query:', req.query);
+const { tipo } = req.query;
+if (!tipo) {
+return res.json(actividades);
+}
+const filtradas = actividades.filter((a) => a.tipo == tipo);
+res.json(filtradas);
+});
+
 app.get("/actividades", (req, res) => {
   res.json({actividades});
 });
